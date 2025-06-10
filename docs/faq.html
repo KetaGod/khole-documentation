@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="K-HOLE FAQ" />
+  <title>K-HOLE | FAQ</title>
+  <link rel="stylesheet" href="/assets/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div id="terminal">
+    <h1>❓ Frequently Asked Questions</h1>
+    <p>Common questions about usage, setup, and limitations of K-HOLE.</p>
+
+    <h2>Q: Is K-HOLE safe to run?</h2>
+    <p>A: K-HOLE is only safe in controlled environments that you fully own or have permission to test. Never use it on public infrastructure.</p>
+
+    <h2>Q: Why is my proxy/TOR setup not working?</h2>
+    <p>A: Make sure the TOR service is running and listening on port 9050/9051, and that your controller password is configured correctly.</p>
+
+    <h2>Q: How do I install missing dependencies?</h2>
+    <p>A: Run <code>pip install -r requirements.txt</code>. If an error persists, install individual modules manually using pip.</p>
+
+    <h2>Q: What protocols does K-HOLE support?</h2>
+    <p>A: Layer 3/4/7 (TCP, UDP, HTTP, WebSocket), Amplification, Industrial Protocols (Modbus), Game (Steam A2S), VoIP, IoT (MQTT, CoAP).</p>
+
+    <h2>Q: Can I use my own payloads?</h2>
+    <p>A: Yes. Use the Custom Payload Editor or load external `.txt` or `.json` files into flood methods that support it.</p>
+
+    <h2>Q: Is there a GUI version?</h2>
+    <p>A: Not yet. K-HOLE is currently command-line and terminal styled, but a GUI frontend is being considered.</p>
+
+    <h2>Q: My attack isn't working—what's wrong?</h2>
+    <p>A: Verify target IP/hostname, port number, payload format, and method compatibility. Try a different method or scan the target first.</p>
+
+    <nav>
+      <a href="/index.html">← Back to Home</a>
+    </nav>
+  </div>
+</body>
+</html>
